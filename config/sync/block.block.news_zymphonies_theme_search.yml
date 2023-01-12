@@ -1,0 +1,23 @@
+uuid: 9d6da7ef-3754-4d1c-b74b-240ec2c91309
+langcode: es
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - news_zymphonies_theme
+_core:
+  default_config_hash: w1K3fCjO9OMFdUJUwNfmhwZAMONnraJjOSQZQbub8GY
+id: news_zymphonies_theme_search
+theme: news_zymphonies_theme
+region: auto_hidden_block
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

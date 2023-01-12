@@ -1,0 +1,20 @@
+uuid: 658d59a8-d986-4e11-af7b-a963b8b927b2
+langcode: es
+status: true
+dependencies:
+  theme:
+    - news_zymphonies_theme
+_core:
+  default_config_hash: os54-wJ70SJM1uB2BKbIXO_BUS-1MSud1A0RQfqaTY0
+id: news_zymphonies_theme_page_title
+theme: news_zymphonies_theme
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

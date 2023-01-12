@@ -1,0 +1,27 @@
+uuid: 118b215f-11e8-48fe-b449-c5064d60ed6f
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - news_zymphonies_theme
+_core:
+  default_config_hash: awPB-lxlWSLAojzntJts2N9-_eiRJ8MjsLEbaaiV6iA
+id: news_zymphonies_theme_account_menu
+theme: news_zymphonies_theme
+region: top_menu
+weight: 11
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

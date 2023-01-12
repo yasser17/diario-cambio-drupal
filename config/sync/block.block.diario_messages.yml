@@ -1,0 +1,22 @@
+uuid: 90bfb114-f3c8-4d3d-9518-495f454b746d
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - diario
+_core:
+  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
+id: diario_messages
+theme: diario
+region: header
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,11 @@
+uuid: 438ab044-8b13-42f8-b1fe-461c23e73c54
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.publicidad
+id: node.publicidad
+target_entity_type_id: node
+target_bundle: publicidad
+default_langcode: site_default
+language_alterable: false

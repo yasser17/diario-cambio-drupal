@@ -1,0 +1,23 @@
+uuid: 66d2a2a6-8301-4aa1-8fd1-e705a85b1aca
+langcode: es
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - diario
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: diario_search
+theme: diario
+region: sidebar_second
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Buscar noticia'
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

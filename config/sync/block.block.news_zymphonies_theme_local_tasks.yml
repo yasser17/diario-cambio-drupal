@@ -1,0 +1,22 @@
+uuid: fd6d43f3-be3d-43aa-99e9-bbaa6958896a
+langcode: es
+status: true
+dependencies:
+  theme:
+    - news_zymphonies_theme
+_core:
+  default_config_hash: v-DU8W4BHCJfmA6txKtwME3ciucHitrTjYZC6xld2nM
+id: news_zymphonies_theme_local_tasks
+theme: news_zymphonies_theme
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,17 @@
+uuid: e7ee431c-ace6-4d17-9f0a-bc987685ac61
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Publicidad
+type: publicidad
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

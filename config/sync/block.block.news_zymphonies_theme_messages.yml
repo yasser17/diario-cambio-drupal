@@ -1,0 +1,22 @@
+uuid: ec3be2b7-3ddc-4f66-8941-21c13d77f6bf
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - news_zymphonies_theme
+_core:
+  default_config_hash: '-9rgjCEJox1mMqF0F5QNGWCLNwHmXUGVddvD2ZTRNiQ'
+id: news_zymphonies_theme_messages
+theme: news_zymphonies_theme
+region: highlighted
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: ad0f77a3-8b9a-44f8-ad17-f5540a4b8874
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - diario
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: diario_help
+theme: diario
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

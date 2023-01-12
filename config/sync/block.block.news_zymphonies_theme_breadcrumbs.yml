@@ -1,0 +1,22 @@
+uuid: ef32471d-01da-4164-b171-09b4ae223a32
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - news_zymphonies_theme
+_core:
+  default_config_hash: mdOdNnGfHfnQk6Mwoc1spncV6mNf5tcyg8UmC7D8HIw
+id: news_zymphonies_theme_breadcrumbs
+theme: news_zymphonies_theme
+region: breadcrumb
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

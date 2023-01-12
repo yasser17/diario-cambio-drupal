@@ -1,0 +1,65 @@
+uuid: c172a19a-3ef3-4267-b74e-75cc02d60423
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.publicidad.body
+    - field.field.node.publicidad.field_enlace
+    - field.field.node.publicidad.field_fecha_fin_vigencia_
+    - field.field.node.publicidad.field_imagen
+    - image.style.thumbnail
+    - node.type.publicidad
+  module:
+    - datetime
+    - image
+    - link
+id: node.publicidad.default
+targetEntityType: node
+bundle: publicidad
+mode: default
+content:
+  field_enlace:
+    type: link_default
+    weight: 1
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_fecha_fin_vigencia_:
+    type: datetime_default
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_imagen:
+    type: image_image
+    weight: 3
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 4
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

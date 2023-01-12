@@ -1,0 +1,20 @@
+uuid: b2d56a04-d5a9-4d82-9efd-dbe25cafa15b
+langcode: es
+status: true
+dependencies:
+  theme:
+    - news_zymphonies_theme
+_core:
+  default_config_hash: ui6iNicd80HcZ_UG9rR2A1EqzaVOVXWiJDpd5ZJzAqk
+id: news_zymphonies_theme_local_actions
+theme: news_zymphonies_theme
+region: auto_hidden_block
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

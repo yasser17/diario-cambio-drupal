@@ -1,0 +1,25 @@
+uuid: 8aecfb3c-90de-4cc2-be5d-cb80a62a2eaf
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - news_zymphonies_theme
+_core:
+  default_config_hash: lfkKD0mRIzUjKIS1hT2z-QzwbS4WVeE2zOn_8Xsjfb0
+id: news_zymphonies_theme_branding
+theme: news_zymphonies_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

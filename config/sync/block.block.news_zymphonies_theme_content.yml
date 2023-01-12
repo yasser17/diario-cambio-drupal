@@ -1,0 +1,22 @@
+uuid: a0365508-456f-449c-a619-1734cf83edd9
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - news_zymphonies_theme
+_core:
+  default_config_hash: I7k4Ge4jEE4YZtYxOC2DgWkV-ItxB-nGRpVbZs2TQMI
+id: news_zymphonies_theme_content
+theme: news_zymphonies_theme
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

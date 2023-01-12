@@ -1,0 +1,22 @@
+uuid: c6a06800-5831-46aa-9f29-a909a7676e8d
+langcode: es
+status: true
+dependencies:
+  theme:
+    - diario
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: diario_local_tasks
+theme: diario
+region: header
+weight: 10
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

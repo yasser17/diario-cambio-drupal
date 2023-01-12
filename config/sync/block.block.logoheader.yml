@@ -1,0 +1,25 @@
+uuid: ae8904d2-855d-4849-9a35-69f744aa6306
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b3e4c9a2-2e44-4e95-8d6f-0d2ad9847a5e'
+  module:
+    - block_content
+  theme:
+    - diario
+id: logoheader
+theme: diario
+region: pre_nav
+weight: 0
+provider: null
+plugin: 'block_content:b3e4c9a2-2e44-4e95-8d6f-0d2ad9847a5e'
+settings:
+  id: 'block_content:b3e4c9a2-2e44-4e95-8d6f-0d2ad9847a5e'
+  label: 'Logo Header'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

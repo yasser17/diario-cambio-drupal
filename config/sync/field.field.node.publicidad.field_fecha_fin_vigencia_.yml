@@ -1,0 +1,24 @@
+uuid: 31915d0c-4fbc-45e1-a093-5f6d9e5967d4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fecha_fin_vigencia_
+    - node.type.publicidad
+  module:
+    - datetime
+id: node.publicidad.field_fecha_fin_vigencia_
+field_name: field_fecha_fin_vigencia_
+entity_type: node
+bundle: publicidad
+label: 'Fecha Fin (vigencia)'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,22 @@
+uuid: 7081a4a4-26df-4b42-ae41-ade1c70b3e63
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - diario
+_core:
+  default_config_hash: wDR9JKEATSWldBjw8du8s3G2zjEYeQf88nlld11hMLo
+id: diario_breadcrumbs
+theme: diario
+region: header
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

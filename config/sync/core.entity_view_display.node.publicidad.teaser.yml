@@ -1,0 +1,37 @@
+uuid: 63615382-6d41-4575-8dca-5ce9ac116bda
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.publicidad.body
+    - field.field.node.publicidad.field_enlace
+    - field.field.node.publicidad.field_fecha_fin_vigencia_
+    - field.field.node.publicidad.field_imagen
+    - node.type.publicidad
+  module:
+    - text
+    - user
+id: node.publicidad.teaser
+targetEntityType: node
+bundle: publicidad
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_enlace: true
+  field_fecha_fin_vigencia_: true
+  field_imagen: true
+  langcode: true

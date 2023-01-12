@@ -1,0 +1,23 @@
+uuid: 6cd53135-7fb0-4511-a365-233d9086e01f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_enlace
+    - node.type.publicidad
+  module:
+    - link
+id: node.publicidad.field_enlace
+field_name: field_enlace
+entity_type: node
+bundle: publicidad
+label: Enlace
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 17
+field_type: link
