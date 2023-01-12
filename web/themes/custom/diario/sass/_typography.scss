@@ -1,0 +1,62 @@
+/*------------------------------------*\
+	TEMA
+\*------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,600,700,800);
+
+/* Typography
+================================================== */
+
+body {
+  background: #fff;
+  color: #333;
+}
+
+body,
+p {
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1c1c1c;
+  font-weight: 700;
+  font-family: "Arimo", sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 36px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+h5 {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.alert .icon {
+  margin-right: 15px;
+}

@@ -1,0 +1,9 @@
+diario_custom_slider:
+  js:
+    js/swiper-bundle.min.js: {}
+  css:
+    theme:
+      css/swiper.min.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

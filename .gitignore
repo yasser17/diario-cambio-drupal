@@ -1,0 +1,49 @@
+vendor
+web/core
+web/modules/contrib
+web/themes/contrib
+web/libraries
+drush/contrib
+web/sites/default/files
+
+.idea
+
+.DS_Store
+
+# Ignore Drupal Scaffold
+web/*.*
+web/sites/example.*
+web/sites/default/default.*
+!web/.htaccess
+!web/sites/development.services.yml
+!web/sites/example.settings.local.yml
+!web/google*.html
+!web/sitemap.xml
+
+# Ignore configuration files that may contain sensitive information.
+web/sites/*/settings.local.php
+web/sites/default/settings.php
+tests/behat/local.yml
+
+.sass-cache
+
+# Ignore node related files/directories
+node_modules
+npm-debug.log
+web/themes/custom/diario/node_modules
+
+# Ignore local config files.
+/.gitattributes
+/.editorconfig
+.vscode
+*.sql
+*.sql.gz
+
+# Ignore web local files.
+web/modules/.gitignore
+web/profiles/.gitignore
+web/sites/.gitignore
+web/themes/.gitignore
+
+# Ignore ESLint cache file
+.eslintcache

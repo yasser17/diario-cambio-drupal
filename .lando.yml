@@ -1,0 +1,43 @@
+name: diario-cambio
+recipe: drupal9
+config:
+  php: '8.0'
+  via: nginx
+  webroot: web
+  xdebug: 'coverage, debug'
+  config:
+    php: .lando/php.ini
+
+services:
+  node:
+    type: node:16.13
+    globals:
+      npm: 8.19.3
+
+tooling:
+  node:
+    service: node
+  npm:
+    service: node
+  theme-install:
+    service: node
+    cmd:
+      - "cd web/theme/custom/diario && npm i --quiet"
+  theme-build:
+    service: node
+    cmd:
+      - "cd /app/web/themes/custom/diario && npm run scss"
+  theme-watch:
+    service: node
+    cmd:
+      - "cd /app/web/themes/custom/diario && npm run watch"
+  xdebug-on:
+    service: appserver
+    description: Enable xdebug for nginx.
+    cmd: docker-php-ext-enable xdebug && pkill -o -USR2 php-fpm
+    user: root
+  xdebug-off:
+    service: appserver
+    description: Disable xdebug for nginx.
+    cmd: rm /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini && pkill -o -USR2 php-fpm
+    user: root

@@ -1,0 +1,46 @@
+.page-node-type-article {
+  p {
+    font-size: 1.6rem;
+    line-height: 26px;
+    margin-bottom: 15px;
+  }
+
+  .author {
+    display: none;
+  }
+
+  .field--type-entity-reference {
+    display: flex;
+    padding-bottom: 1.5rem;
+
+    .field--item {
+      a {
+        position: relative;
+        font-size: 10px;
+        padding: 0 5px;
+        background: #00acf0;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #fff;
+        height: 20px;
+        line-height: 20px;
+        display: inline-block;
+        margin-right: 10px;
+
+        &::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          z-index: 0;
+          bottom: -8px;
+          border-top: 8px solid #00acf0;
+          border-right: 8px solid transparent;
+        }
+      }
+    }
+  }
+
+  .social-sharing-buttons {
+    justify-content: flex-start;
+  }
+}

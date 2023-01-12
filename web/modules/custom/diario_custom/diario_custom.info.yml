@@ -1,0 +1,7 @@
+name: 'Diario Cambio Custom Module'
+type: module
+core: '8.x'
+description: 'Custom module to customize'
+package: 'Diario'
+
+core_version_requirement: ^8 || ^9 || ^10

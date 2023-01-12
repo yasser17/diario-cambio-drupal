@@ -1,0 +1,19 @@
+global-styling:
+  css:
+    theme:
+      styles.css: {}
+  js:
+    js/diario-custom.js: {}
+
+diario-main-slider:
+  js:
+    https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js:
+      { type: external }
+    js/swiper-custom.js: {}
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css:
+        { type: external }
+  dependencies:
+    - core/jquery
+    - core/drupal

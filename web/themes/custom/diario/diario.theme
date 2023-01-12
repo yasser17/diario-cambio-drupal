@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Implements hook_views_pre_render().
+ */
+function diario_views_pre_render(&$view) {
+  if ($view->id() == 'frontpage') {
+    $view->element['#attached']['library'][] = 'diario/diario-main-slider';
+  }
+}

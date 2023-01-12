@@ -1,0 +1,197 @@
+/* Global styles
+================================================== */
+
+html {
+  overflow-x: hidden !important;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.body-inner {
+  position: relative;
+  overflow: hidden;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a {
+  color: #00acf0;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+a.read-more {
+  color: #00acf0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+a.read-more:hover {
+  color: #222;
+}
+
+section,
+.section-padding {
+  padding: 30px 0;
+  position: relative;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.p-top-0 {
+  padding-top: 0;
+}
+
+.p-bottom-0 {
+  padding-bottom: 0;
+}
+
+.m-top-0 {
+  margin-top: 0 !important;
+}
+
+.m-bottom-0 {
+  margin-bottom: 0;
+}
+
+.media > .pull-left {
+  margin-right: 20px;
+}
+
+img.banner {
+  display: inline-block;
+}
+
+.gap-60 {
+  clear: both;
+  height: 60px;
+}
+
+.gap-50 {
+  clear: both;
+  height: 50px;
+}
+
+.gap-40 {
+  clear: both;
+  height: 40px;
+}
+
+.gap-30 {
+  clear: both;
+  height: 30px;
+}
+.gap-20 {
+  clear: both;
+  height: 20px;
+}
+
+.mrb-20 {
+  margin-bottom: 20px;
+}
+
+.mrb-30 {
+  margin-bottom: 30px;
+}
+
+.mrb-80 {
+  margin-bottom: -80px;
+}
+
+.mrt-0 {
+  margin-top: 0 !important;
+}
+
+.pab {
+  padding-bottom: 0;
+}
+
+a:focus {
+  outline: 0;
+}
+
+img.pull-left {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+img.pull-right {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+ol,
+ul {
+  margin-bottom: 20px;
+}
+
+.unstyled {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ts-padding {
+  padding: 60px;
+}
+
+.solid-bg {
+  background: #f9f9f9;
+}
+
+.solid-row {
+  background: #f0f0f0;
+}
+
+
+/*-- Post title --*/
+
+.post-title {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 15px 0 0;
+}
+
+.post-title a {
+  color: #1c1c1c;
+}
+
+.post-title.title-extra-large {
+  font-size: 26px;
+  line-height: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.post-title.title-large {
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.post-title.title-medium {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.search-block-form {
+  margin-top: 30px;
+}

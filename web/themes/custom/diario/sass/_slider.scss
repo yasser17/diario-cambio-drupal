@@ -1,0 +1,30 @@
+#block-views-block-slider-principal-block-1 {
+  .swiper-wrapper {
+    .views-field-field-image {
+      img {
+        width: 100%;
+      }
+    }
+
+    .views-field-title {
+      position: absolute;
+      bottom: 6rem;
+      padding: 0 3rem;
+      h2 {
+        a {
+          color: #fff;
+        }
+      }
+    }
+
+    .views-field-created {
+      position: absolute;
+      bottom: 4.5rem;
+      padding: 0 3rem;
+
+      .field-content {
+        color: #fff;
+      }
+    }
+  }
+}
